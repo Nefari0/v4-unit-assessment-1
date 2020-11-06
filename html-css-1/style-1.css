@@ -1,0 +1,94 @@
+
+.border {
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    margin: 10px;
+}
+
+nav {
+  
+    /* display: inline-block; */
+    background-color: #da7455;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    height: 100px;
+    width: 840px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica Nueu, Arials;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.divh1 {
+    font-size: 35px;
+}
+
+.divh2 {
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.nav-item {
+    display: inline-block;
+    color: blue;
+    width: 25%;
+    box-sizing: border-box;
+  }
+
+.imfile1 {
+    /* display: inline-block; */
+    width: 100px;
+    /* margin: 10px; */
+    float: left;
+}
+
+.imfile2 {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    /* padding: 10px; */
+    /* float: right; */
+}
+
+.divp {
+    /* display: inline-block; */
+    font-size: 15px;
+    /* margin: 15px; */
+    float: right;
+}
+
+/*---- section containers----- */
+
+
+
+.dot-box1 {
+    /* font-size: 25px; */
+    height: 300px;
+    width: 800px;
+    margin: 15px;
+    padding: 10px;
+    background-color: white);
+    border: 5px solid black;
+    border-style: dotted;
+}
+
+.high {
+    height: 340px;
+}
+
+.dot-box2 {
+    height: 340px;
+    width: 800px;
+    margin: 15px;
+    background-color: rgb(185, 63, 63);
+    border: 2px solid black
+}

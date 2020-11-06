@@ -1,0 +1,124 @@
+header {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(0, 235, 235);
+    margin-left: 25%;
+}
+
+.border {
+    width: 800px;
+    height: 300px;
+    border: 2px solid black;
+    border-style: dotted;
+    margin: 15px;
+    margin-left: 25%;
+    margin-top: 0px;
+}
+
+.border-high {
+    height: 360px;
+}
+
+h1 {
+    margin-left: 25%;
+    margin-bottom: 0px;
+}
+
+/* ----SQUARES---- */
+.square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 170px;
+    box-shadow: 10px 10px 15px rgb(63, 48, 48);
+    background-color: blue;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 170px;
+    background-color: rgb(60, 38, 102);
+    border: 2px solid red;
+}
+
+.large-square {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    background-color: rgb(190, 115, 144);
+}
+
+ 
+
+/* ----CIRCLES---- */
+
+.circle {
+    height: 134px;
+    width: 134px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* margin: auto; */
+    margin-left: 12px;
+ }
+
+ .circ-med {
+    height: 110px;
+    width: 110px;
+    /* margin: auto; */
+    margin-left: 24px;
+}
+
+ .circ-small {
+    height: 85px;
+    width: 85px;
+    margin-top: 12px;
+    /* margin: auto; */
+    margin-left: 36.5px;
+}
+
+/* ----EVERTHING PROPERTIES---- */
+
+.outer-sqr {
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    background-color: wheat;
+    border: 2px solid black;
+}
+
+.outer-circle {
+    height: 80%;
+    width: 80%;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.inner-square {
+    display: inline-block;
+    width: 65%;
+    height: 65%;
+    margin: 17%;
+    background-color: red;
+    /* border: 2px solid black; */
+}
+
+.inner-circle {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    /* margin: auto; */
+    background-color: blue;
+}
+
+h4 {
+    margin: 0px;
+    margin-top: 3px;
+    text-align: center;
+    color: burlywood;
