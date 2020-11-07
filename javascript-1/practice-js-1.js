@@ -205,7 +205,7 @@ let secondFunctionScope = ['global', 'functional']
 
 //CODE HERE
 function firstItem(arr,cb) {
-  cb(arr)
+  cb(arr[0])
 }
 //////////////////PROBLEM 16////////////////////
 /* 
@@ -234,7 +234,7 @@ function isItBob(obj,cb) {
 function giveMeDoubles(arr,cb) {
   for (let i = 0; i <= arr.length-1; i++) {
     arr[i] *= 2
-    // console.log(arr[i])
+    console.log(arr[i])
   }
   cb(arr)
 }
@@ -264,3 +264,19 @@ function giveMeDoubles(arr,cb) {
 */
 
 //CODE HERE
+function carFactory(make,model,year) {
+  // console.log(make, model,year)
+
+  const vehicle = {
+    make: make,
+    model: model,
+    year: year
+  }
+  // console.log(vehicle)
+  if (year > 2018) {
+    vehicle.isNew = true
+  } else {
+    vehicle.isNew = false
+  }
+  console.log(vehicle)
+}
