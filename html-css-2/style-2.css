@@ -122,3 +122,8 @@ h4 {
     margin-top: 3px;
     text-align: center;
     color: burlywood;
+}
+
+.icon-small {
+    size: 100px;
+}
